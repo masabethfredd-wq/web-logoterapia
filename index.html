@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Introducción a la Logoterapia | Instituto Venezolano de Logoterapia</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0f3a85", // Exact Deep Blue from reference logo
+              secondary: "#19a39a", // Exact Teal from reference logo
+              "background-light": "#fdfdfe",
+              "background-dark": "#0a1120",
+            },
+            fontFamily: {
+              display: ["Montserrat", "sans-serif"],
+              body: ["Inter", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+            },
+          },
+        },
+      };
+    </script>
+<style type="text/tailwindcss">
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+        .bg-pattern {
+            background-image: radial-gradient(circle at 2px 2px, rgba(15, 58, 133, 0.04) 1px, transparent 0);
+            background-size: 32px 32px;
+        }
+        .dark .bg-pattern {
+            background-image: radial-gradient(circle at 2px 2px, rgba(25, 163, 154, 0.04) 1px, transparent 0);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #0f3a85 0%, #19a39a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 transition-colors duration-300">
+<nav class="fixed w-full z-50 bg-white/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-slate-100 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<div class="flex items-center gap-4">
+<img alt="Instituto Logo" class="h-16 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXUDZJDzYo4jTLvOXC29TCIBj_JPfVp-j189Vd5fHVcr88v94-Doi4CYpsfT17tqP_odDy-ShVxnoPHHrv1vhKEivCvwtrY0quXurQPYG9-nSAare2a7EWRrQKSK7IXsgqORkrtFdHEqQuaEyD243Vx_R2XaZdOQjRoSI8AW3LiEeYsG8XinKocrPbdw041I-ax_Lez2SrXeLGxIYMI7IJwk_Rgd1gV18uF6pUWzr2vOEXH5EF_D6sQE2QY0KN4r59L5zfJr83A70"/>
+<div class="hidden lg:block text-[11px] font-extrabold leading-tight uppercase tracking-tight text-primary dark:text-white border-l border-slate-200 dark:border-slate-700 pl-4">
+                    INSTITUTO VENEZOLANO<br/>
+                    DE LOGOTERAPIA<br/>
+<span class="text-secondary">Y ANÁLISIS EXISTENCIAL</span>
+</div>
+</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="hover:text-secondary transition-colors font-bold text-xs uppercase tracking-widest text-slate-500 dark:text-slate-400" href="#programa">Programa</a>
+<a class="hover:text-secondary transition-colors font-bold text-xs uppercase tracking-widest text-slate-500 dark:text-slate-400" href="#facilitador">Facilitador</a>
+<a class="bg-primary hover:bg-secondary text-white px-8 py-3.5 rounded-full font-bold transition-all shadow-xl shadow-primary/20 active:scale-95" href="#inscripcion">
+                    Inscribirme ahora
+                </a>
+</div>
+</div>
+</div>
+</nav>
+<section class="relative pt-32 pb-20 lg:pt-52 lg:pb-40 overflow-hidden bg-pattern">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="text-center lg:text-left">
+<div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-secondary/10 text-secondary font-bold text-xs uppercase tracking-widest mb-10 border border-secondary/20 shadow-sm">
+<span class="material-symbols-outlined text-sm">event_available</span>
+                    Nueva cohorte: Inscripciones abiertas
+                </div>
+<h1 class="text-5xl md:text-7xl font-extrabold text-primary dark:text-white leading-[1.05] mb-10">
+                    Encuentra el sentido <br/>
+<span class="text-secondary">detrás de tu vacío</span>
+</h1>
+<p class="text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-14 max-w-xl mx-auto lg:mx-0 leading-relaxed font-light">
+                    Transforma tu crisis en una oportunidad de crecimiento personal con las herramientas del Análisis Existencial.
+                </p>
+<div class="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
+<a class="bg-primary text-white px-12 py-6 rounded-2xl text-xl font-bold shadow-2xl shadow-primary/30 hover:bg-secondary transition-all flex items-center justify-center gap-3 active:scale-95" href="#inscripcion">
+                        Inscribirme ahora
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="px-12 py-6 rounded-2xl text-xl font-bold border-2 border-slate-200 dark:border-slate-800 hover:bg-white dark:hover:bg-slate-800 transition-all flex items-center justify-center text-slate-500 dark:text-slate-400 active:scale-95" href="#problema">
+                        Conocer más
+                    </a>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-[0_40px_80px_-15px_rgba(15,58,133,0.25)] relative border-[12px] border-white dark:border-slate-800 transition-transform hover:scale-[1.02] duration-500">
+<img alt="Sesión de logoterapia" class="object-cover w-full h-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdjAO_BFgmvypPyTuA9EF6vPJOBkg3B6V8Lt8O6NDYVfLRBy9KvhDEQ0asjLOjEG0hmHryx5CDTPPFAEeoMZ5aqx65W8ibyosOfEn6TVsw2-f2NSs8inx_qBOgYcAhoqMN5raky2lsNymJajq-letsyYm1eC3oYehHxGF_-fkfEmZmxEKHNXuxGQfCZANcn64K49ZY3oLMcOdxmIJKwbkCJwS5Ded5tbHpZHJLPwPwlxyG4Js94sXdvzjOK-M4f1JHGiLrUgNDg3k"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/50 via-transparent to-transparent"></div>
+</div>
+<div class="absolute -bottom-12 -left-12 bg-white dark:bg-slate-800 p-10 rounded-[2.5rem] shadow-2xl max-w-[280px] border border-slate-100 dark:border-slate-700 hidden lg:block transform -rotate-3">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-14 h-14 bg-secondary/10 rounded-2xl flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-secondary">groups</span>
+</div>
+<span class="font-black text-4xl text-primary dark:text-white tracking-tighter">+500</span>
+</div>
+<p class="text-base font-semibold text-slate-500 leading-snug">Egresados han redescubierto su propósito con nosotros.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800" id="problema">
+<div class="max-w-4xl mx-auto px-4 text-center">
+<h2 class="text-4xl md:text-6xl font-extrabold mb-12 text-primary dark:text-white leading-tight">¿Sientes que tu vida ha perdido el rumbo?</h2>
+<div class="space-y-10 text-2xl text-slate-600 dark:text-slate-400 italic font-light leading-relaxed">
+<p class="relative px-8">
+<span class="absolute -top-10 -left-4 text-8xl text-secondary/10 font-serif">"</span>
+                A veces la rutina, las pérdidas o la incertidumbre nos hacen sentir un profundo vacío existencial. Esa sensación de que nada tiene un para qué.
+                <span class="absolute -bottom-14 -right-4 text-8xl text-secondary/10 font-serif">"</span>
+</p>
+<p class="not-italic text-secondary font-black text-3xl pt-10 tracking-tight">La crisis es el llamado a una búsqueda más profunda.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-10 mt-28">
+<div class="p-10 bg-slate-50 dark:bg-slate-800/50 rounded-[2.5rem] transition-all hover:bg-white hover:shadow-xl dark:hover:bg-slate-800 border border-transparent hover:border-slate-100 dark:hover:border-slate-700">
+<span class="material-symbols-outlined text-6xl text-secondary mb-8">sentiment_dissatisfied</span>
+<h3 class="font-extrabold text-2xl mb-4 text-primary dark:text-white uppercase tracking-tighter">Desmotivación</h3>
+<p class="text-slate-500 dark:text-slate-400 text-lg">Sentir que cada día es una repetición vacía que carece de color y propósito vital.</p>
+</div>
+<div class="p-10 bg-slate-50 dark:bg-slate-800/50 rounded-[2.5rem] transition-all hover:bg-white hover:shadow-xl dark:hover:bg-slate-800 border border-transparent hover:border-slate-100 dark:hover:border-slate-700">
+<span class="material-symbols-outlined text-6xl text-secondary mb-8">psychology_alt</span>
+<h3 class="font-extrabold text-2xl mb-4 text-primary dark:text-white uppercase tracking-tighter">Crisis Existencial</h3>
+<p class="text-slate-500 dark:text-slate-400 text-lg">No saber quién eres realmente fuera de tus roles y etiquetas impuestas por el entorno.</p>
+</div>
+<div class="p-10 bg-slate-50 dark:bg-slate-800/50 rounded-[2.5rem] transition-all hover:bg-white hover:shadow-xl dark:hover:bg-slate-800 border border-transparent hover:border-slate-100 dark:hover:border-slate-700">
+<span class="material-symbols-outlined text-6xl text-secondary mb-8">nights_stay</span>
+<h3 class="font-extrabold text-2xl mb-4 text-primary dark:text-white uppercase tracking-tighter">Vacío Interior</h3>
+<p class="text-slate-500 dark:text-slate-400 text-lg">La sensación persistente de que falta algo esencial en tu interior que nada logra llenar.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-background-light dark:bg-background-dark" id="programa">
+<div class="max-w-7xl mx-auto px-4">
+<div class="text-center mb-24">
+<h2 class="text-4xl md:text-6xl font-extrabold text-primary dark:text-white mb-8">Logoterapia: Sanar a través del Sentido</h2>
+<p class="max-w-3xl mx-auto text-xl text-slate-600 dark:text-slate-400 leading-relaxed font-light">
+                Inspirada en el legado de <strong class="text-primary dark:text-secondary font-bold">Viktor Frankl</strong>, esta formación te brinda las herramientas para activar tu voluntad de sentido ante cualquier adversidad.
+            </p>
+</div>
+<div class="grid lg:grid-cols-2 gap-12">
+<div class="bg-white dark:bg-slate-800 p-12 rounded-[3rem] shadow-xl border border-slate-100 dark:border-slate-700">
+<h3 class="text-3xl font-extrabold mb-10 flex items-center gap-4 text-primary dark:text-white uppercase tracking-tighter">
+<span class="material-symbols-outlined text-secondary text-4xl">menu_book</span>
+                    Ejes Temáticos
+                </h3>
+<ul class="space-y-8">
+<li class="flex gap-5">
+<span class="material-symbols-outlined text-secondary text-3xl flex-shrink-0">check_circle</span>
+<div>
+<span class="text-slate-700 dark:text-slate-200 font-bold block mb-1">Fundamentos del Análisis Existencial</span>
+<span class="text-slate-500 dark:text-slate-400">Comprensión profunda de la visión humanista de Viktor Frankl.</span>
+</div>
+</li>
+<li class="flex gap-5">
+<span class="material-symbols-outlined text-secondary text-3xl flex-shrink-0">check_circle</span>
+<div>
+<span class="text-slate-700 dark:text-slate-200 font-bold block mb-1">Diagnóstico del Vacío</span>
+<span class="text-slate-500 dark:text-slate-400">Identifica las causas raíz de la apatía y la desorientación vital.</span>
+</div>
+</li>
+<li class="flex gap-5">
+<span class="material-symbols-outlined text-secondary text-3xl flex-shrink-0">check_circle</span>
+<div>
+<span class="text-slate-700 dark:text-slate-200 font-bold block mb-1">Técnicas de Autotrascendencia</span>
+<span class="text-slate-500 dark:text-slate-400">Aprende a mirar más allá de ti mismo para encontrar plenitud.</span>
+</div>
+</li>
+<li class="flex gap-5">
+<span class="material-symbols-outlined text-secondary text-3xl flex-shrink-0">check_circle</span>
+<div>
+<span class="text-slate-700 dark:text-slate-200 font-bold block mb-1">Descubrimiento de Valores</span>
+<span class="text-slate-500 dark:text-slate-400">Valores creativos, vivenciales y de actitud ante el sufrimiento.</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="bg-white dark:bg-slate-800 p-12 rounded-[3rem] shadow-xl border border-slate-100 dark:border-slate-700">
+<h3 class="text-3xl font-extrabold mb-10 flex items-center gap-4 text-primary dark:text-white uppercase tracking-tighter">
+<span class="material-symbols-outlined text-secondary text-4xl">verified_user</span>
+                    Resultados Esperados
+                </h3>
+<ul class="space-y-8">
+<li class="flex gap-5">
+<span class="material-symbols-outlined text-secondary text-3xl flex-shrink-0">bolt</span>
+<div>
+<span class="text-slate-700 dark:text-slate-200 font-bold block mb-1">Resiliencia Existencial</span>
+<span class="text-slate-500 dark:text-slate-400">Herramientas prácticas para afrontar el dolor y la pérdida.</span>
+</div>
+</li>
+<li class="flex gap-5">
+<span class="material-symbols-outlined text-secondary text-3xl flex-shrink-0">bolt</span>
+<div>
+<span class="text-slate-700 dark:text-slate-200 font-bold block mb-1">Claridad en Decisiones</span>
+<span class="text-slate-500 dark:text-slate-400">Firmeza y coherencia en la toma de decisiones trascendentales.</span>
+</div>
+</li>
+<li class="flex gap-5">
+<span class="material-symbols-outlined text-secondary text-3xl flex-shrink-0">bolt</span>
+<div>
+<span class="text-slate-700 dark:text-slate-200 font-bold block mb-1">Relaciones Conscientes</span>
+<span class="text-slate-500 dark:text-slate-400">Mejora sustancial en la conexión profunda con los demás.</span>
+</div>
+</li>
+<li class="flex gap-5">
+<span class="material-symbols-outlined text-secondary text-3xl flex-shrink-0">bolt</span>
+<div>
+<span class="text-slate-700 dark:text-slate-200 font-bold block mb-1">Actitud Heroica</span>
+<span class="text-slate-500 dark:text-slate-400">Desarrollo de una postura valiente ante el destino.</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-primary text-white overflow-hidden relative">
+<div class="absolute top-0 right-0 w-96 h-96 bg-secondary/20 rounded-full blur-[100px] -mr-48 -mt-48"></div>
+<div class="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-[100px] -ml-48 -mb-48"></div>
+<div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+<h2 class="text-4xl md:text-5xl font-extrabold mb-20 uppercase tracking-tight">¿A quién va dirigido?</h2>
+<div class="grid sm:grid-cols-2 gap-8 text-left">
+<div class="bg-white/10 p-10 rounded-[2.5rem] backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all">
+<p class="font-bold text-xl leading-snug">Buscadores de sentido que sientan un estancamiento en su presente actual.</p>
+</div>
+<div class="bg-white/10 p-10 rounded-[2.5rem] backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all">
+<p class="font-bold text-xl leading-snug">Profesionales del área humanista (psicología, educación, coaching) que deseen ampliar su visión.</p>
+</div>
+<div class="bg-white/10 p-10 rounded-[2.5rem] backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all">
+<p class="font-bold text-xl leading-snug">Personas en procesos de duelo, transiciones de carrera o crisis de mediana edad.</p>
+</div>
+<div class="bg-white/10 p-10 rounded-[2.5rem] backdrop-blur-xl border border-white/20 hover:bg-white/20 transition-all">
+<p class="font-bold text-xl leading-snug">Cualquier persona con el anhelo de profundizar en el misterio de su propia existencia.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-white dark:bg-slate-900" id="facilitador">
+<div class="max-w-6xl mx-auto px-4">
+<div class="flex flex-col md:flex-row gap-20 items-center">
+<div class="w-full md:w-[500px] shrink-0">
+<div class="relative group">
+<div class="absolute inset-0 bg-secondary rounded-[4rem] rotate-3 transition-transform group-hover:rotate-0"></div>
+<div class="relative rounded-[4rem] overflow-hidden shadow-2xl border-8 border-white dark:border-slate-800">
+<img alt="Psicólogo Facilitador" class="w-full aspect-[4/5] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIydjYPrWJXg52nNJrfuLQanQ0QJEsA3fQY9j9J6vv95AwENM9FlpXdCXYFlEkT4kR3FMqfDfVGePDYSaTbMqzMU6-yxctWNjyd-tBkOHbRe-OMtniNS78QbhoWksp523shJ3prQkFwtOC4T_7BGn-mZchWm4nqTBbTtvqA5XJc0er-dbkmzWsZ2jJhpCVVL6O6h81vkwbwxdTX0L7KNjXKZFDeoZ0Mc7Tg_1VT20XGBvsVdFroQ6jmU341_8x3D-xiJql9YzTFWU"/>
+</div>
+</div>
+</div>
+<div class="flex-1 text-center md:text-left">
+<h2 class="text-sm font-black text-secondary uppercase tracking-[0.4em] mb-6">Autoridad Académica</h2>
+<h3 class="text-5xl font-extrabold text-primary dark:text-white mb-4 leading-tight">Facilitado por el Presidente del Instituto</h3>
+<p class="text-2xl font-bold text-slate-700 dark:text-slate-300 mb-10">Psicólogo Clínico y Logoterapeuta</p>
+<div class="space-y-8 text-xl text-slate-600 dark:text-slate-400 leading-relaxed mb-12 font-light">
+<p>
+                        Con más de 15 años de trayectoria en el campo del Análisis Existencial, el Presidente del Instituto ha liderado la formación de cientos de especialistas en Latinoamérica, honrando el legado del Dr. Viktor Frankl.
+                    </p>
+<p>
+                        Su enfoque combina el rigor científico de la psicología con la sensibilidad humana necesaria para acompañar procesos de transformación profunda y descubrimiento del propósito vital.
+                    </p>
+</div>
+<div class="flex flex-wrap gap-5 justify-center md:justify-start">
+<span class="px-7 py-3 rounded-full bg-slate-50 dark:bg-slate-800 text-sm font-black uppercase tracking-widest text-primary dark:text-secondary border border-slate-200 dark:border-slate-700 shadow-sm">Certificación Internacional</span>
+<span class="px-7 py-3 rounded-full bg-slate-50 dark:bg-slate-800 text-sm font-black uppercase tracking-widest text-primary dark:text-secondary border border-slate-200 dark:border-slate-700 shadow-sm">Docente Universitario</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-slate-50 dark:bg-slate-800/20" id="inscripcion">
+<div class="max-w-5xl mx-auto px-4">
+<div class="bg-white dark:bg-slate-900 rounded-[4rem] shadow-[0_40px_100px_-20px_rgba(15,58,133,0.15)] overflow-hidden border border-slate-100 dark:border-slate-800 relative">
+<div class="absolute top-0 right-0 p-12 hidden lg:block">
+<img alt="Instituto Logo" class="h-14 opacity-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXUDZJDzYo4jTLvOXC29TCIBj_JPfVp-j189Vd5fHVcr88v94-Doi4CYpsfT17tqP_odDy-ShVxnoPHHrv1vhKEivCvwtrY0quXurQPYG9-nSAare2a7EWRrQKSK7IXsgqORkrtFdHEqQuaEyD243Vx_R2XaZdOQjRoSI8AW3LiEeYsG8XinKocrPbdw041I-ax_Lez2SrXeLGxIYMI7IJwk_Rgd1gV18uF6pUWzr2vOEXH5EF_D6sQE2QY0KN4r59L5zfJr83A70"/>
+</div>
+<div class="p-12 md:p-24 text-center">
+<h2 class="text-4xl md:text-5xl font-extrabold text-primary dark:text-white mb-20 uppercase tracking-tighter">Inversión y Detalles</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-16 mb-20">
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 bg-secondary/10 rounded-[1.5rem] flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-4xl">timer</span>
+</div>
+<span class="text-xs font-black uppercase tracking-widest text-slate-400 mb-2">Duración Total</span>
+<p class="font-black text-2xl text-primary dark:text-white">6 Horas Académicas</p>
+</div>
+<div class="flex flex-col items-center border-y md:border-y-0 md:border-x border-slate-100 dark:border-slate-800 py-12 md:py-0">
+<div class="w-16 h-16 bg-secondary/10 rounded-[1.5rem] flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-4xl">cast_for_education</span>
+</div>
+<span class="text-xs font-black uppercase tracking-widest text-slate-400 mb-2">Modalidad</span>
+<p class="font-black text-2xl text-primary dark:text-white">Online Vía Zoom</p>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 bg-secondary/10 rounded-[1.5rem] flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-4xl">assignment_turned_in</span>
+</div>
+<span class="text-xs font-black uppercase tracking-widest text-slate-400 mb-2">Material</span>
+<p class="font-black text-2xl text-primary dark:text-white">Guía Digital PDF</p>
+</div>
+</div>
+<div class="mb-16 bg-slate-50 dark:bg-slate-800/50 inline-block px-16 py-10 rounded-[3rem] border border-slate-100 dark:border-slate-700 shadow-inner">
+<div class="text-7xl font-black text-primary dark:text-white tracking-tighter">
+                        $39 <span class="text-2xl font-bold text-slate-400 italic align-middle ml-2">USD</span>
+</div>
+<p class="mt-6 text-slate-500 font-bold uppercase tracking-widest text-xs">Pago único · Incluye Certificado Digital</p>
+</div>
+<div class="space-y-8 max-w-md mx-auto">
+<button class="w-full bg-secondary hover:bg-primary text-white text-2xl font-black py-7 rounded-[2rem] shadow-2xl shadow-secondary/30 transition-all transform hover:scale-[1.02] active:scale-[0.98]">
+                        Inscribirme ahora
+                    </button>
+<div class="flex items-center justify-center gap-6 text-slate-400">
+<div class="flex items-center gap-2 text-xs font-black uppercase tracking-widest">
+<span class="material-symbols-outlined text-sm">lock</span>
+                            Pago 100% Seguro
+                        </div>
+<div class="w-1.5 h-1.5 bg-slate-300 rounded-full"></div>
+<div class="flex gap-3">
+<img alt="PayPal" class="h-6 opacity-60 grayscale hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7EhZtv8wpQTXhNqVH_O8cTMY9dIGqWK0edw8vzyeUHCtceCERVvgbSH4Mu-w-0jAP8Nnq7oXMdyUZzT0x-2rMN2ncD7IOQZu041ebuaNGe66gkcZqF7sXWAN11aFjxdZ1pWmc8F4awrN0EWEYD8dQi5kKScwr2GIV_tBjcAhXj7V9-OsxbHaVnxB-BUlNUnkheCu5S0ujrKgJd5589VhHsKSp7xi9-FTkjNCijLTux5KzSa53ylnnL4zaBCpxVMPqL9nkRkdvFRM"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-white dark:bg-background-dark">
+<div class="max-w-4xl mx-auto px-4">
+<h2 class="text-4xl md:text-5xl font-extrabold text-center mb-24 text-primary dark:text-white uppercase tracking-tighter">Preguntas Frecuentes</h2>
+<div class="space-y-6">
+<details class="group bg-slate-50 dark:bg-slate-800/50 rounded-[2rem] p-8 border border-slate-100 dark:border-slate-700 cursor-pointer transition-all hover:bg-white dark:hover:bg-slate-800 shadow-sm">
+<summary class="font-black text-xl flex justify-between items-center list-none text-primary dark:text-white">
+                    ¿Quedarán grabadas las sesiones?
+                    <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary text-3xl">expand_more</span>
+</summary>
+<div class="mt-6 text-slate-600 dark:text-slate-400 leading-relaxed font-medium border-t border-slate-200 dark:border-slate-700 pt-6 text-lg">
+                    Sí, entendemos que tu tiempo es valioso. Todos los inscritos tendrán acceso a las grabaciones exclusivas durante 30 días para repasar cada concepto a su propio ritmo.
+                </div>
+</details>
+<details class="group bg-slate-50 dark:bg-slate-800/50 rounded-[2rem] p-8 border border-slate-100 dark:border-slate-700 cursor-pointer transition-all hover:bg-white dark:hover:bg-slate-800 shadow-sm">
+<summary class="font-black text-xl flex justify-between items-center list-none text-primary dark:text-white">
+                    ¿Es necesario ser psicólogo para cursar?
+                    <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary text-3xl">expand_more</span>
+</summary>
+<div class="mt-6 text-slate-600 dark:text-slate-400 leading-relaxed font-medium border-t border-slate-200 dark:border-slate-700 pt-6 text-lg">
+                    No. Este curso está diseñado para ser accesible a cualquier persona interesada en su propio desarrollo humano. Utilizamos un lenguaje profundo pero comprensible, aterrizado a la vida real.
+                </div>
+</details>
+<details class="group bg-slate-50 dark:bg-slate-800/50 rounded-[2rem] p-8 border border-slate-100 dark:border-slate-700 cursor-pointer transition-all hover:bg-white dark:hover:bg-slate-800 shadow-sm">
+<summary class="font-black text-xl flex justify-between items-center list-none text-primary dark:text-white">
+                    ¿El certificado tiene aval institucional?
+                    <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary text-3xl">expand_more</span>
+</summary>
+<div class="mt-6 text-slate-600 dark:text-slate-400 leading-relaxed font-medium border-t border-slate-200 dark:border-slate-700 pt-6 text-lg">
+                    Efectivamente. Al finalizar recibirás un certificado digital emitido por el <strong class="text-primary dark:text-secondary">Instituto Venezolano de Logoterapia y Análisis Existencial</strong>, validando tu participación en esta formación introductoria.
+                </div>
+</details>
+</div>
+</div>
+</section>
+<footer class="bg-primary text-slate-300 py-32 relative overflow-hidden">
+<div class="absolute bottom-0 left-0 w-full h-2 bg-secondary"></div>
+<div class="max-w-7xl mx-auto px-4 text-center">
+<div class="flex flex-col items-center gap-10 mb-16">
+<img alt="Instituto Logo" class="h-28 w-auto brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXUDZJDzYo4jTLvOXC29TCIBj_JPfVp-j189Vd5fHVcr88v94-Doi4CYpsfT17tqP_odDy-ShVxnoPHHrv1vhKEivCvwtrY0quXurQPYG9-nSAare2a7EWRrQKSK7IXsgqORkrtFdHEqQuaEyD243Vx_R2XaZdOQjRoSI8AW3LiEeYsG8XinKocrPbdw041I-ax_Lez2SrXeLGxIYMI7IJwk_Rgd1gV18uF6pUWzr2vOEXH5EF_D6sQE2QY0KN4r59L5zfJr83A70"/>
+<div class="max-w-2xl">
+<h4 class="text-white font-black text-2xl mb-6 uppercase tracking-widest">Instituto Venezolano de Logoterapia</h4>
+<p class="text-slate-400 text-lg leading-relaxed font-light">Promoviendo la búsqueda del sentido de la vida a través de la formación académica y el acompañamiento existencial, siguiendo los pasos del Dr. Viktor Frankl.</p>
+</div>
+</div>
+<div class="flex justify-center gap-12 mb-16">
+<a class="hover:text-secondary transition-colors transform hover:scale-110" href="#"><span class="material-symbols-outlined text-4xl">public</span></a>
+<a class="hover:text-secondary transition-colors transform hover:scale-110" href="#"><span class="material-symbols-outlined text-4xl">mail</span></a>
+<a class="hover:text-secondary transition-colors transform hover:scale-110" href="#"><span class="material-symbols-outlined text-4xl">alternate_email</span></a>
+</div>
+<div class="pt-16 border-t border-white/5">
+<p class="text-sm font-bold tracking-widest uppercase text-slate-500">
+                © 2024 Instituto Venezolano de Logoterapia y Análisis Existencial. Todos los derechos reservados.
+            </p>
+</div>
+</div>
+</footer>
+<button class="fixed bottom-8 right-8 p-5 bg-white dark:bg-slate-800 rounded-[1.5rem] shadow-2xl border border-slate-200 dark:border-slate-700 z-50 text-primary dark:text-white transition-all active:scale-90" onclick="document.documentElement.classList.toggle('dark')">
+<span class="material-symbols-outlined block dark:hidden">dark_mode</span>
+<span class="material-symbols-outlined hidden dark:block">light_mode</span>
+</button>
+
+</body></html>
